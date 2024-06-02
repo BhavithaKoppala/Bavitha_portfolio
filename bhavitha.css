@@ -1,0 +1,352 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background2.gif') ;
+    background-size: cover;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+.navbarBg{
+    margin:0px;
+    margin-top: 0px;
+    background-color:rgb(50, 154, 252);
+    width: 100%;
+    height: 60px;
+    position:fixed;
+    top:0px;
+}
+.portfolio{
+    font-family: 'Ubuntu', sans-serif;;
+    text-decoration: none;
+    font-weight: 600;
+    padding:10px;
+    font-size:30px;
+    color:white;
+    padding-left: 40px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: -40px;
+}
+.navbar-nav{
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+}
+.d-flex{
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    padding:13px;
+    padding-right: 40px; 
+    display: flex;
+    justify-content: end;
+    margin-bottom: -30px;
+}
+.nav-link{
+    margin:5px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+}
+.Home{
+    transition: all 0.4s ease;
+    scroll-behavior: smooth;
+    margin-top:12%;
+    margin-left:40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.hello{
+    margin-top: 20px;
+   font-size: 25px;
+   color: #0E2431;
+}
+.kalyan{
+    color: #0E2431;
+    font-size: 55px;
+    font-weight: 600;
+}
+.web{
+    font-size: 40px;
+    margin: 5px 0;
+    color: #4070f4
+}
+.India{
+    font-size: 23px;
+    margin: 5px 0;
+    color: #0E2431;
+}
+.downloadCV,.downloadCVV{
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #4070f4;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+    scroll-behavior: smooth;
+}
+
+
+.about{
+    transition: all 0.4s ease;
+    margin-top:50px;
+    padding-top:100px;
+    margin-top: 18%;
+    scroll-behavior: smooth;
+    background-color: white;
+    height: 100vh;
+}
+.aboutme,.skill,.myservices,.contactme{
+    padding:10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #0E2431;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding:20px;
+    padding-bottom: 8px;
+    text-decoration: underline rgb(61, 143, 250);
+}
+.myImg{
+   margin:10px;
+   height:400px;
+   width:400px;
+}
+
+.develop{
+   padding-top: 20px;
+    margin:20px;
+    color: #0E2431;
+    font-size: 30px;
+    font-weight: 500;
+}
+.container{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    margin:20px;
+    font-size: 20px;
+    text-align: justify;
+    color: #0E2431;
+}
+.downloadCVV{
+    margin:20px;
+}
+.downloadCV{
+    margin-top:20px;
+}
+.mainContainer{
+    display: grid;
+     grid-template-columns: auto auto;
+    margin-left: 10%;
+    margin-top:50px;
+}
+.myskills,.contactsss{
+    background: #F0F8FF;
+    height: 100vh;
+    transition: all 0.4s ease;
+    padding-top:100px;
+    scroll-behavior: smooth;
+}
+.contactsss{
+    background: #F0F8FF;
+    height: 70vh;
+    transition: all 0.4s ease;
+    padding-top:100px;
+    scroll-behavior: smooth;
+
+}
+.percentages{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right:30%;
+
+}
+.experiance{
+     font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    font-weight: bold;
+    margin: 20px;
+    color: #0E2431;
+}
+.internship,.training{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    color: #0E2431;
+    font-weight: bold;
+}
+.skillpara{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+    color: #0E2431;
+}
+span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #0E2431;
+    font-weight: bold;
+}
+.html,.css,.javascript,.mysql{
+    width: calc(100% / 2 - 20px);
+    margin: 20px;
+    padding:20px;
+}
+
+.topic{
+    font-size: 20px;
+    color: #4070f4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.percent{
+    font-size: 60px;
+    color: #4070f4;
+    width: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.numb{
+    display: flex;
+    flex-direction: row;
+}
+.num3{
+    color: #0E2431;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+.month{
+    margin: 10px;
+    color: #0E2431;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.services{
+    background-color: white;
+    height:100vh;
+
+}
+.boxs{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+   background-color: white;
+   text-align: center;
+   border-radius: 12px;
+   font-family: 'Poppins', sans-serif;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+   padding: 30px 10px;
+   margin: 30px ;
+   width:300px;
+   height:300px
+}
+.box:hover{
+    background: #6e93f7;
+    color:white;
+    transition: all 0.3s ease;
+}
+.icon{
+    background: #4070f4;
+    border-radius: 100%;
+    height:50px;
+    width:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+}
+.topics{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p{ 
+    font-size: 17px;
+    color: #0E2431;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.myservices{
+    padding-top: 100px; 
+}
+.boxs .box:hover .icon {
+    background-color: #fff;
+    color: #4070f4;
+}
+.boxs .box:hover p {
+    /* background-color: #4070f4; */
+    color: #fff;
+}
+.anyproject,.anyprojectpara{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.anyproject{
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.anyprojectpara{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.chatButton{ 
+   display: flex;
+   justify-content: center;
+     
+}
+.chatButtonn{ 
+    font-family: 'Poppins', sans-serif;
+    margin:50px;
+    height:50px;
+    text-align: center;
+    width:160px;
+    border-radius: 5px;
+    font-size:20px;
+    border-width: 0px;
+    color:white;
+    background: #4070f4;
+     
+}
+.chatButtonn:hover{
+    background-color: white;
+    color:#4070f4;
+    border-color: #4070f4;
+    border-width: 1px ;
+}
+.chatButtonn:hover a {
+    color: #4070f4;
+}
+div>button>a{
+    text-decoration: none;
+    color:white
+}
+.footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #4070f4;
+    text-align: center;
+    font-size:15px;
+    color:white;
+    width: 100%;
+    height:40px;
+   padding-top:10px;
+}
+
